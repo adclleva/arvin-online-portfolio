@@ -295,7 +295,7 @@ footer {
 }
 
 #lead-content h2 {
-    color: #a0cfee;
+    color: #ffffff;
     font-weight: 500;
     font-size: 2.25em;
     margin-bottom: 15px
@@ -309,7 +309,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 119, 255, 0.363);
+    background: rgba(0, 119, 255, 0.541);
     z-index: 1
 }
 
@@ -510,6 +510,13 @@ footer {
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0
+}
+
+#courses-list-title {
+    color: #74808a;
+    clear: both;
+    font-weight: 500;
+    margin: 15px 0 0 0
 }
 
 .education-block p,
@@ -871,3 +878,17 @@ footer {
         padding: 5px 10px
     }
 }
+
+.profile-picture {
+	border-radius: 100%;
+	overflow: hidden;
+	-webkit-box-sizing: content-box;
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box;	
+}
+	.big-profile-picture {
+		margin: 0 auto;		
+		border: 5px solid #ffffff;
+		width: 150px;
+		height: 150px;
+	}
